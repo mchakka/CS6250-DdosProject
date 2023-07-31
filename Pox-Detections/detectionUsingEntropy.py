@@ -43,6 +43,7 @@ class Entropy(object):
         if(len(self.destEntropy)) == 80:
             print (self.destEntropy)
             self.destEntropy = []
+            
         self.value = sum(entropyList)
 
       def __init__(self):
